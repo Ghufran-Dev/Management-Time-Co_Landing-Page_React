@@ -1,0 +1,131 @@
+.myContainer {
+  background-image: url('../../../../public/images/Rectangle.png');
+  background-blend-mode: hard-light;
+  box-shadow: 0px 0px 2rem 0rem rgba(7, 6, 28, 0.80);
+  backdrop-filter: blur(0.6rem);
+  background-repeat: no-repeat;
+  background-size: 174rem 100rem;
+  background-position: center;
+  max-width: 90%;
+  margin: 0 auto;
+
+  position: relative;
+  bottom: -30rem;
+  margin-top: -30rem;
+}
+.form_content {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 4rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading {
+  color: #FF8E3C;
+  font-family: Plus Jakarta Sans;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 4rem;
+  /* 100% */
+}
+
+.para {
+  color: #FFF;
+  font-family: Plus Jakarta Sans;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.4rem;
+  /* 150% */
+  margin: 2rem auto;
+}
+
+
+form {
+  max-width: 54rem;
+  padding: 2rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  width: 100%;
+  padding: .8rem;
+  background-color: transparent;
+  border: 0.1rem solid #8C8686;
+}
+
+.textarea {
+  background-color: transparent;
+  border: 0.1rem solid #8C8686;
+  color: #8C8686;
+  padding: 1rem;
+  color: #8C8686;
+  font-family: Plus Jakarta Sans;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.4rem;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.inp {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+input::placeholder {
+  color: #8C8686;
+  font-family: Plus Jakarta Sans;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.4rem;
+  /* 100% */
+  letter-spacing: 0.028rem;
+}
+
+.button {
+  /* display: inline-flex; */
+  padding: 1.4rem 3.2rem;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* gap: 10px; */
+  width: 30%;
+  margin-top: 2rem;
+  border: 1px solid #96A1D1;
+  background: #293895;
+  color: #FFF;
+  font-family: Plus Jakarta Sans;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.6rem;
+  /* 100% */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+form h1 {
+  font-family: "Plus Jakarta Sans";
+  font-size: 30px;
+  font-weight: 500;
+  text-align: left;
+}
+
+form p {
+  font-family: "Plus Jakarta Sans";
+  color: white;
+  text-align: left;
+  font-weight: 200;
+  font-size: 16px;
+}

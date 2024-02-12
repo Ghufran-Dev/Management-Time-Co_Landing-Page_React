@@ -1,0 +1,77 @@
+.myContainer {
+    background: #090D23;
+    padding: 2rem 3rem;
+}
+
+.heading {
+    color: #FF8E3C;
+    font-family: Plus Jakarta Sans;
+    font-size: 5.4rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 5.4rem;
+    /* 100% */
+    margin: 1rem 0 4rem 1.4rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+    place-items: center;
+    gap: 1rem;
+}
+
+.card {
+    text-align: center;
+}
+
+
+.para {
+    color: #FFF;
+    font-family: Plus Jakarta Sans;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.2rem;
+    /* 100% */
+    position: relative;
+    top: -5rem;
+}
+
+.specialTitle {
+    color: #FF8E3C;
+    position: relative;
+    top: -5rem;
+    font-family: Plus Jakarta Sans;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.2rem;
+    /* 100% */
+}
+
+@media (max-width:1055px) {
+    .heading {
+        text-align: center;
+        margin-left: 0;
+    }
+}
+
+@media (max-width:1030px) {
+    .card img{
+        width: 450px;
+    }
+    .grid{
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+
+    }
+
+}
+@media (max-width:786px) {
+    .card img{
+        width: 350px;
+    }
+    .grid {
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    }
+}

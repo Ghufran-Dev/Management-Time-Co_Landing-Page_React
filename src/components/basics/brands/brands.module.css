@@ -1,0 +1,34 @@
+
+.divider {
+    border: 0.2rem solid #96A1D1;
+    width: 5.2rem;
+}
+
+.title {
+    color: #353640;
+    font-family: Plus Jakarta Sans;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.4rem; /* 100% */
+    letter-spacing: 0.084rem;
+}
+
+.heading {
+    color: #293895;
+    font-family: Plus Jakarta Sans;
+    font-size: 5.4rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 5.4rem;
+    text-align: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem, 1fr));
+    margin: 2rem 0;
+    place-items: center;
+}
+.myCard{
+    margin: 1.5rem;
+}

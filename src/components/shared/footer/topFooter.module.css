@@ -1,0 +1,72 @@
+.myContainer {
+    background-color: #070f3e;
+    background-image: url('../../../../public/images/mapBG\ .png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 63.4rem;
+}
+.logo{
+    max-width: 24.8rem;
+}
+.content {
+    padding-top: 35rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    color: #fff;
+}
+
+.icons {
+    display: flex;
+    gap: 3rem;
+    font-size: 2.4rem;
+    margin-top: 2rem;
+}
+
+.heading {
+    color: #FF8E3C;
+    font-family: Plus Jakarta Sans;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.4rem;
+    /* 100% */
+    margin-bottom: 2rem;
+}
+
+.li {
+    color: #FFF;
+    font-family: Plus Jakarta Sans;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.4rem;
+    /* 100% */
+    margin: .8rem 0;
+}
+.ul{
+    list-style-type:none;
+}
+.divider{
+    width: 2rem;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+.enevelop{
+    color: #FF8E3C;
+    margin: 1rem 0 2rem 0;
+}
+.phone{
+    color: #FF8E3C;
+    margin-bottom: 1rem;
+}
+.facebook{
+    color: #1877f2;
+}
+.insta{
+    color: pink;
+}
+.twitter{
+    color: #1877f2;
+}

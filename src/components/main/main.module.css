@@ -1,0 +1,7 @@
+.myContainer{
+    background-image: url('../../../public/images/Box.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 83rem;
+}

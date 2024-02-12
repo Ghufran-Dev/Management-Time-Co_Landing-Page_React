@@ -1,0 +1,50 @@
+.footer {
+    background-color: #090D23;
+    color: #8C8686;
+    padding: 2rem 4.3rem;
+}
+
+.inner_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 85%;
+    margin: 0 auto;
+    font-family: Plus Jakarta Sans;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.4rem;
+    letter-spacing: 0.096rem;
+}
+
+.inner_content {
+    display: flex;
+    gap: 2rem;
+    color: #8C8686;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.4rem;
+    letter-spacing: 0.096rem;
+}
+
+.inner_span {
+    color: #fff;
+    font-weight: 600;
+}
+.p{
+    margin: 0;
+    padding: .7rem 0;
+}
+@media (max-width:586px) {
+    .inner_footer {
+        flex-direction: column;
+    }
+
+    html {
+        font-size: 85%;
+    }
+}

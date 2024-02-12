@@ -1,0 +1,57 @@
+.myContainer {
+    background-color: #090D23;
+}
+
+.line {
+    max-width: 94.5%;
+    margin: 0 auto;
+    color: #96A1D1;
+    padding: 2rem 0;
+}
+
+.h_card {
+    max-width: 94.5%;
+    margin: 2rem auto;
+    background-image: url("../../../../public/images/s.png");
+    background-repeat: no-repeat;
+    background-position: start;
+    background-size: 350px 500px;
+}
+
+.h_content{
+    max-width: 90%;
+}
+.heading {
+    color: #FF8E3C;
+    font-family: Plus Jakarta Sans;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 4.8rem;
+ 
+}
+
+.para {
+    color: #C5BCBC;
+    font-family: Plus Jakarta Sans;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 3.4rem;
+    /* 170% */
+    letter-spacing: 0.04rem;
+}
+
+/* @media (max-width:800px) {
+    .myContainer {
+        flex-direction: column;
+    }
+    .img{
+        text-align: center;
+        margin-top: 3rem;
+    }
+    .img img{
+        max-width: 80%;
+    }
+
+} */

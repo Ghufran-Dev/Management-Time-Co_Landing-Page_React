@@ -1,0 +1,68 @@
+.myContainer {
+    background: rgba(7, 15, 62, 0.70) url(../../../../public/images/background4.png);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 54rem;
+}
+
+.heading {
+    color: #FF8E3C;
+    font-family: Plus Jakarta Sans;
+    font-size: 5.4rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 5.4rem;
+}
+
+.para {
+    color: #FFF;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.4rem;
+}
+
+.content {
+    display: grid;
+    place-items: center;
+    gap: 2rem;
+    max-width: 50%;
+    margin: 0 auto;
+    padding-top: 10rem;
+
+}
+
+.button {
+    display: inline-flex;
+    padding: 1.4rem 3.2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+font-family: Plus Jakarta Sans;
+font-size: 1.6rem;
+font-style: normal;
+font-weight: 800;
+line-height: 1.6rem;
+}
+
+.button:hover {
+    border: 1px solid #96A1D1;
+    background-color: transparent;
+}
+
+/* .border {
+    display: block;
+    border-top: 2px solid #96A1D1;
+    border-bottom: 2px solid #96A1D1;
+    border-left: 2px solid #96A1D1;
+} */
+
+@media (max-width:840px) {
+    .myContainer {
+        padding-bottom: 3rem;
+    }
+}
